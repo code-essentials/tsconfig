@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "@tsconfig/node24/tsconfig.json",
+        "@tsconfig/strictest/tsconfig.json",
+    ],
+    "compilerOptions": {
+        "declaration": true,
+        "rootDir": "src",
+        "lib": ["ESNext"]
+    },
+    "exclude": ["node_modules"]
+}
