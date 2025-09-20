@@ -1,6 +1,6 @@
 {
   "name": "@code-essentials/tsconfig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
   "scripts": {
@@ -12,6 +12,10 @@
     "@tsconfig/strictest": "^2.0.5"
   },
   "keywords": [],
-  "author": "Isaac Valdez",
+  "author": {
+    "name": "Isaac Valdez",
+    "email": "isaac_valdez@msn.com",
+    "url": "https://i12345.github.io"
+  },
   "license": "MIT"
 }
