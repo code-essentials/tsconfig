@@ -1,16 +1,15 @@
 {
   "name": "@code-essentials/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "scripts": {
     "build": "",
     "test": ""
   },
-  "devDependencies": {
+  "peerDependencies": {
     "@tsconfig/node24": "^24.0.1",
-    "@tsconfig/strictest": "^2.0.5",
-    "typescript": "^5.9.2"
+    "@tsconfig/strictest": "^2.0.5"
   },
   "keywords": [],
   "author": "Isaac Valdez",
