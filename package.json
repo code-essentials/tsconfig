@@ -1,5 +1,5 @@
 {
-  "name": "@graph/tsconfig",
+  "name": "@code-essentials/tsconfig",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -10,9 +10,9 @@
   "devDependencies": {
     "@tsconfig/node24": "^24.0.1",
     "@tsconfig/strictest": "^2.0.5",
-    "typescript": "catalog:"
+    "typescript": "^5.9.2"
   },
   "keywords": [],
-  "author": "",
-  "license": "See LICENSE.md"
+  "author": "Isaac Valdez",
+  "license": "MIT"
 }
