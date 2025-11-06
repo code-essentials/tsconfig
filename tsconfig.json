@@ -6,7 +6,8 @@
     "compilerOptions": {
         "declaration": true,
         "rootDir": "src",
-        "lib": ["ESNext"]
+        "lib": ["ESNext", "Decorators"],
+        "moduleResolution": "nodenext",
     },
     "exclude": ["node_modules"]
 }
