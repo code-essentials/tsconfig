@@ -2,6 +2,8 @@
     "extends": "./tsconfig.json",
     "compilerOptions": {
         "sourceMap": false,
+        // remove DOM
+        "lib": ["ESNext", "Decorators"],
     },
     "exclude": ["node_modules"]
 }
