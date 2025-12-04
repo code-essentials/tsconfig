@@ -9,5 +9,5 @@
         "lib": ["ESNext", "Decorators", "DOM"],
         "moduleResolution": "nodenext",
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "dist"]
 }

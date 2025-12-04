@@ -5,5 +5,5 @@
         "rootDir": ".",
         "lib": ["ESNext", "Decorators", "DOM"]
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "dist"]
 }
