@@ -1,11 +1,14 @@
 {
   "name": "@code-essentials/tsconfig",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "",
   "type": "module",
   "files": [
     "template",
-    "cli/setup.js"
+    "cli/setup.js",
+    "tsconfig.json",
+    "tsconfig.prod.json",
+    "tsconfig.debug.json"
   ],
   "bin": {
     "setup-tsconfig": "cli/setup.js"
