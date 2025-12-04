@@ -2,6 +2,15 @@
 
 ## Install
 
+Automatic
+
+```bash
+pnpm i -d @code-essentials/tsconfig
+pnpm dlx setup-tsconfig
+```
+
+Manual install
+
 ```bash
 pnpm i -d @code-essentials/tsconfig
 cp -r node_modules/@code-essentials/tsconfig/template/* .

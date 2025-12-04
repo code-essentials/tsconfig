@@ -1,15 +1,25 @@
 {
   "name": "@code-essentials/tsconfig",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "",
   "type": "module",
+  "files": [
+    "template",
+    "cli/setup.js"
+  ],
+  "bin": {
+    "setup-tsconfig": "cli/setup.js"
+  },
   "scripts": {
     "build": "",
     "test": ""
   },
   "peerDependencies": {
-    "@tsconfig/node24": "^24.0.1",
+    "@tsconfig/node24": "^24.10.0",
     "@tsconfig/strictest": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
   },
   "keywords": [],
   "author": {
@@ -17,5 +27,9 @@
     "email": "isaac_valdez@msn.com",
     "url": "https://i12345.github.io"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-essentials/tsconfig.git"
+  }
 }
