@@ -25,8 +25,8 @@ cp -r node_modules/@code-essentials/tsconfig/template/* .
 ```json
 {
     "clean": "rm -rf dist",
-    "prebuild": "pnpm run clean",
-    "prebuild:debug": "pnpm run clean",
+    "prebuild": "npm run clean",
+    "prebuild:debug": "npm run clean",
     "build": "tsc -p tsconfig.prod.json",
     "build:debug": "tsc -p tsconfig.debug.json",
 }
